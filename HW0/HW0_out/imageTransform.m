@@ -7,7 +7,7 @@ A = [cos(theta) -sin(theta); sin(theta) cos(theta)];
 %Replace the identity matrix below with your transformation
 %matrix, and run this script.
 %%%%%%%%%%%% Your code here %%%%%%%%%%%%%%
-T = [1 0;0 1];
+T = A * [1 0 ; 0 0.5];
 
 %%%%%%%%%%%% end of your code %%%%%%%%%%%%%%
 
